@@ -1,0 +1,22 @@
+{
+  "name": "astroscrum-docs-www",
+  "description": "Scrum",
+  "version": "0.0.0",
+  "repository": "https://github.com/astroscrum/docs-www.git",
+  "author": "Astrodudes",
+  "license": "Astrodudes",
+  "homepage": "astroscrum.com",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-aws": "^0.5.0",
+    "grunt-aws-s3": "^0.12.3",
+    "grunt-contrib-connect": "^0.10.1",
+    "grunt-contrib-copy": "^0.8.0",
+    "grunt-contrib-imagemin": "^0.9.4",
+    "grunt-contrib-uglify": "^0.9.1",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-pngmin": "^1.0.2",
+    "grunt-processhtml": "^0.3.7",
+    "grunt-string-replace": "^1.2.0"
+  }
+}

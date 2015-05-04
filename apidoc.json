@@ -1,0 +1,26 @@
+{
+  "name": "Astroscrum REST API",
+  "version": "1.0.0",
+  "description": "Use Astroscrum's REST API to interface with the service or build your own tools to manage your scrum.",
+  "title": "Astroscrum API Docs",
+  "url" : "https://astroscrum-api.herokuapp.com/v1",
+  "header": {
+    "title": "Getting Started",
+    "filename": "header.md"
+  },
+  "order": [
+    "Team",
+    "CreateTeam",
+    "GetTeam",
+    "Player",
+    "GetPlayers",
+    "CreatePlayer",
+    "GetPlayer",
+    "Scrum",
+    "Entry"
+  ],
+  "template": {
+  	"withCompare": false,
+  	"withGenerator": false
+  }
+}

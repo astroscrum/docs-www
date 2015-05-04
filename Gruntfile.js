@@ -7,10 +7,6 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-connect');
   grunt.loadNpmTasks('grunt-contrib-copy');
 
-  // Minify and clean up assets
-  grunt.loadNpmTasks('grunt-contrib-imagemin');
-  grunt.loadNpmTasks('grunt-contrib-uglify');
-
   // Project configuration.
   grunt.initConfig({
     pkg: grunt.file.readJSON('package.json'),
@@ -19,21 +15,9 @@ module.exports = function(grunt) {
       release: {
         files: [{
           expand: true,
-          cwd: 'src/',
+          cwd: 'www/',
           src:['**'],
           dest: 'dist/'
-        }]
-      }
-    },
-
-    uglify: {
-      build: {
-        files: [{
-          expand: true,
-          src: '**/*.js',
-          dest: 'dist/js',
-          cwd: 'src/js',
-          ext: '.min.js'
         }]
       }
     },
@@ -51,7 +35,7 @@ module.exports = function(grunt) {
       },
       build: {
         cwd: "dist",
-        src: "src/**"
+        src: "www/**"
       }
     },
 
